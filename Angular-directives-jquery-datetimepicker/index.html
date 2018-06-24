@@ -12,6 +12,6 @@
 <body>	
 	<strong>jQuery日期和时间插件：<a target="_blank" href="https://xdsoft.net/jqplugins/datetimepicker/">官网地址</a></strong>
 	<p>可选择日期和时间，选择时间时只能选择到分。不过可以设置秒格式，获取的是系统当前秒数。</p>
-	<my-form></my-form>
+	<div>当前选择时间：{{myTime}}<br><input style="width:305px;" ng-model="myTime" datetimepicker format="Y年m月d日 H时i分s秒" /></div>
 </body>
 </html>
