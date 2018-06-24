@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<link href="./lib/daterangepicker/3.0.3/daterangepicker.css" rel="stylesheet">
+	<script src="./lib/jquery/3.3.1/jquery.js"></script>
+	<script src="./lib/daterangepicker/3.0.3/moment.min.js"></script>
+	<script src="./lib/daterangepicker/3.0.3/daterangepicker.js"></script>
+	<script src="./lib/angular/1.7.2/angular.js"></script>
+	<title>bootstrap-daterangepicker插件</title>
+</head>
+<body>	
+	<strong>bootstrap-daterangepicker插件：<a target="_blank" href="http://www.daterangepicker.com/">官网地址</a></strong>
+	
+	<div>当前选择时间：{{myTime}}<br><input style="width:305px;" ng-model="myTime" daterangepicker format="Y年m月d日 H时i分s秒" /></div>
+	<script src="./js/directives.js"></script>
+</body>
+</html>
