@@ -18,6 +18,7 @@ angular.module('myApp', [])
                     yearEnd: attr.yearStart || 2050, //设置最大年份
                     todayButton:  attr.todayButton || true, //关闭选择今天按钮
                     step: attr.step || 60, 
+                    validateOnBlur: false   // 解决失去焦点时，input自动跳转到当前日期和时间的bug
                 };
                 console.log(option);
                 element.datetimepicker(option);
